@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Training outputs
+runs/
+wandb/
+logs/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Dataset
+datasets/
+
+# Mac files
+.DS_Store
+
+# Generated TensorRT and ONNX binaries
+*.engine
+*.trt
+*.onnx
+
+# Model checkpoints
+*.pt
+*.pth
+events.out.tfevents*

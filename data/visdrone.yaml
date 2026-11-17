@@ -1,0 +1,5 @@
+train: /Users/apple/Desktop/VisDrone/VisDrone2019-DET-train
+val: /Users/apple/Desktop/VisDrone/VisDrone2019-DET-val
+# val: /home/edabk/quangnghiem/Visdrone_dataset_yolo/dataset/VisDrone2019-DET-test-dev
+nc: 10
+names: ['pedestrian', 'people', 'bicycle', 'car', 'van', 'truck', 'tricycle', 'awning-tricycle', 'bus', 'motor']
